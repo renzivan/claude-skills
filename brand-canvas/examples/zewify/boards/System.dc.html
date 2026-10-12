@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Zewify colour and type</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&amp;family=Instrument+Sans:wght@400;500;600&amp;family=Manrope:wght@800&amp;family=Archivo:wght@600&amp;display=swap">
+<style>
+body{margin:0;font-family:'Instrument Sans',system-ui,sans-serif;background:#f7f6f2;color:#1b1b19}
+a{color:#2f5d50}a:hover{color:#1f4238}
+</style>
+</helmet>
+<div style="width: 1440px; height: 1180px; box-sizing: border-box; padding: 72px 80px; display: flex; flex-direction: column; gap: 44px; background: #f7f6f2; color: #1b1b19; font-family: 'Instrument Sans', system-ui, sans-serif;">
+  <div style="display: flex; flex-direction: column; gap: 10px;">
+    <div style="font-size: 15px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: #5f5e58;">System</div>
+    <h1 style="margin: 0; font-family: 'Fraunces', Georgia, serif; font-weight: 400; font-size: 52px; line-height: 1.05; letter-spacing: -0.02em;">Colour and type</h1>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 14px;">
+      <span style="font-size: 15px; font-weight: 600; color: #5f5e58;">Light (default)</span>
+      <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px;">
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #f7f6f2; border: 1px solid #e3e1da;"></div><span style="font-size: 14px; font-weight: 600;">paper</span><span style="font-size: 13px; color: #5f5e58;">#F7F6F2</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #1b1b19;"></div><span style="font-size: 14px; font-weight: 600;">ink</span><span style="font-size: 13px; color: #5f5e58;">#1B1B19</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #5f5e58;"></div><span style="font-size: 14px; font-weight: 600;">ink-muted</span><span style="font-size: 13px; color: #5f5e58;">#5F5E58</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #e3e1da;"></div><span style="font-size: 14px; font-weight: 600;">rule</span><span style="font-size: 13px; color: #5f5e58;">#E3E1DA</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #2f5d50;"></div><span style="font-size: 14px; font-weight: 600;">accent</span><span style="font-size: 13px; color: #5f5e58;">#2F5D50</span></div>
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 14px; padding: 20px; margin: -20px; border-radius: 16px; background: #111110;">
+      <span style="font-size: 15px; font-weight: 600; color: #a3a29b;">Dark (prefers-color-scheme)</span>
+      <div style="display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 10px;">
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #111110; border: 1px solid #2a2a27;"></div><span style="font-size: 14px; font-weight: 600; color: #ecebe6;">paper</span><span style="font-size: 13px; color: #a3a29b;">#111110</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #ecebe6;"></div><span style="font-size: 14px; font-weight: 600; color: #ecebe6;">ink</span><span style="font-size: 13px; color: #a3a29b;">#ECEBE6</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #a3a29b;"></div><span style="font-size: 14px; font-weight: 600; color: #ecebe6;">ink-muted</span><span style="font-size: 13px; color: #a3a29b;">#A3A29B</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #2a2a27;"></div><span style="font-size: 14px; font-weight: 600; color: #ecebe6;">rule</span><span style="font-size: 13px; color: #a3a29b;">#2A2A27</span></div>
+        <div style="display: flex; flex-direction: column; gap: 8px;"><div style="height: 96px; border-radius: 12px; background: #7fb8a6;"></div><span style="font-size: 14px; font-weight: 600; color: #ecebe6;">accent</span><span style="font-size: 13px; color: #a3a29b;">#7FB8A6</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 14px;">
+    <span style="font-size: 15px; font-weight: 600; color: #5f5e58;">Product colours: used only inside each product's own card, never in Zewify chrome</span>
+    <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px;">
+      <div style="display: flex; align-items: center; gap: 18px; padding: 20px; border-radius: 14px; background: #fff3ee; border: 1px solid #fdd7bc;">
+        <span style="font-family: 'Manrope', sans-serif; font-weight: 800; letter-spacing: -0.03em; font-size: 26px; color: #131313; width: 130px;">Financy</span>
+        <div style="display: flex; gap: 8px;">
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #f06e22;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #b44a11;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #fff3ee; border: 1px solid #fdd7bc;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #141b2d;"></div>
+        </div>
+        <span style="font-size: 13px; color: #5f5e58; line-height: 1.45;">Orange 500 / 700, peach, navy. From <code>brand.ts</code></span>
+      </div>
+      <div style="display: flex; align-items: center; gap: 18px; padding: 20px; border-radius: 14px; background: #151132;">
+        <span style="font-family: 'Archivo', sans-serif; font-weight: 600; font-size: 26px; color: #fad98c; width: 130px;">Custodia</span>
+        <div style="display: flex; gap: 8px;">
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #0c0920; border: 1px solid #2b2556;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #1c1740;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #fad98c;"></div>
+          <div style="width: 44px; height: 44px; border-radius: 10px; background: #e7e5f0;"></div>
+        </div>
+        <span style="font-size: 13px; color: #a09cbd; line-height: 1.45;">Ink, stone, gold, paper. From the Custodia site's <code>global.css</code></span>
+      </div>
+    </div>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px; padding-top: 4px; border-top: 1px solid #e3e1da;">
+    <div style="display: flex; flex-direction: column; gap: 18px; padding-top: 24px;">
+      <span style="font-size: 15px; font-weight: 600; color: #5f5e58;">Fraunces: wordmark, display and headings</span>
+      <div style="font-family: 'Fraunces', Georgia, serif; font-size: 72px; line-height: 1.02; letter-spacing: -0.025em;">Calm, private software</div>
+      <div style="font-family: 'Fraunces', Georgia, serif; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em;">Our products</div>
+      <div style="font-family: 'Fraunces', Georgia, serif; font-weight: 500; font-size: 26px; line-height: 1.2; letter-spacing: -0.01em;">Your data stays yours</div>
+      <span style="font-size: 13px; color: #5f5e58;">72 / 40 / 26 px · Regular and Medium · self-hosted via Fontsource</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 18px; padding-top: 24px;">
+      <span style="font-size: 15px; font-weight: 600; color: #5f5e58;">Instrument Sans: text and interface</span>
+      <p style="margin: 0; font-size: 21px; line-height: 1.55; color: #1b1b19;">Lead, 21px. We make small, focused apps for the parts of life that deserve care.</p>
+      <p style="margin: 0; font-size: 18px; line-height: 1.6; color: #5f5e58;">Body, 18px. The smallest body size on the site. At 2560px wide and DPR 1, anything smaller is hard to read.</p>
+      <div style="display: flex; align-items: center; gap: 16px;">
+        <a href="#" style="display: inline-flex; align-items: center; height: 48px; padding: 0 22px; border-radius: 999px; background: #2f5d50; color: #f7f6f2; font-size: 17px; font-weight: 600; text-decoration: none;">Primary action</a>
+        <a href="#" style="display: inline-flex; align-items: center; height: 48px; padding: 0 22px; border-radius: 999px; border: 1px solid #cfccc3; color: #1b1b19; font-size: 17px; font-weight: 600; text-decoration: none;">Secondary</a>
+        <a href="#" style="font-size: 17px; font-weight: 600; color: #2f5d50;">Text link →</a>
+      </div>
+      <span style="font-size: 13px; color: #5f5e58;">21 / 18 / 15 px · 400, 500, 600 · buttons 48px tall</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1180}}'>
+class Component extends DCLogic {
+renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

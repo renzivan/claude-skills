@@ -1,0 +1,84 @@
+{
+  "v": 3,
+  "attachments": {},
+  "boards": {
+    "Logo.dc.html": {
+      "h": 1080,
+      "title": "Logo",
+      "w": 1440,
+      "x": 0,
+      "y": 0
+    },
+    "Main.dc.html": {
+      "h": 2140,
+      "title": "Home \u2014 desktop 1440",
+      "w": 1440,
+      "x": 0,
+      "y": 1600
+    },
+    "Mobile.dc.html": {
+      "h": 2860,
+      "title": "Home \u2014 phone 390",
+      "w": 390,
+      "x": 1520,
+      "y": 1600
+    },
+    "System.dc.html": {
+      "h": 1180,
+      "title": "Colour and type",
+      "w": 1440,
+      "x": 1520,
+      "y": 0
+    },
+    "Logos.dc.html": {
+      "x": 3040,
+      "y": 0,
+      "w": 1600,
+      "h": 1340,
+      "title": "Logo \u2014 ten more marks"
+    },
+    "Wordmark.dc.html": {
+      "x": 4720,
+      "y": 0,
+      "w": 1600,
+      "h": 1520,
+      "title": "Wordmark \u2014 ten typefaces"
+    }
+  },
+  "createdOnFiles": {
+    "at": "2026-09-24T09:00:00Z",
+    "v": 1
+  },
+  "designSystems": [],
+  "launch": {
+    "view": "canvas"
+  },
+  "notes": {
+    "home": {
+      "kind": "title1",
+      "maxW": 1910,
+      "text": "Home page",
+      "w": 240,
+      "x": 0,
+      "y": 1300
+    },
+    "identity": {
+      "kind": "title1",
+      "maxW": 6320,
+      "text": "Zewify \u2014 identity and system",
+      "w": 240,
+      "x": 0,
+      "y": -300
+    }
+  },
+  "order": [
+    "Logo.dc.html",
+    "System.dc.html",
+    "Main.dc.html",
+    "Mobile.dc.html",
+    "Logos.dc.html",
+    "Wordmark.dc.html"
+  ],
+  "pages": [],
+  "title": "Zewify Visual Design"
+}

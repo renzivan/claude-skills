@@ -1,0 +1,97 @@
+{
+  "brand": "Zewify",
+  "eyebrow": "Identity · round 2",
+  "title": "Ten more marks",
+  "intro": "All ten use one green and its tints and stay calm. Each is shown large, next to the wordmark, and at real favicon sizes of 16 and 32px.",
+  "palette": {
+    "accent": "#2f5d50",
+    "deep": "#1f4238",
+    "soft": "#8fb3a5",
+    "paper": "#f7f6f2",
+    "ink": "#1b1b19",
+    "muted": "#5f5e58",
+    "rule": "#e3e1da",
+    "surface": "#ffffff",
+    "dark": {
+      "accent": "#7fb8a6",
+      "deep": "#5d9483",
+      "soft": "#3f6b5e",
+      "paper": "#111110",
+      "ink": "#ecebe6"
+    }
+  },
+  "fonts": {
+    "display": {
+      "family": "Newsreader",
+      "css": "Newsreader:opsz,wght@6..72,400;6..72,500",
+      "weight": 500,
+      "tracking": "-0.02em"
+    },
+    "text": {
+      "family": "Instrument Sans",
+      "css": "Instrument+Sans:wght@400;500;600"
+    }
+  },
+  "marks": [
+    {
+      "name": "Split square",
+      "tag": "Z · negative space",
+      "blurb": "A square cut by one diagonal slit. The Z is only the space between the halves.",
+      "svg": "<path d=\"M14 14H46L14 46Z\" fill=\"{accent}\" stroke=\"{accent}\" stroke-width=\"3\" stroke-linejoin=\"round\"></path><path d=\"M50 22V50H22Z\" fill=\"{accent}\" stroke=\"{accent}\" stroke-width=\"3\" stroke-linejoin=\"round\"></path>"
+    },
+    {
+      "name": "Origami",
+      "tag": "Z · faceted",
+      "blurb": "A Z folded from one strip of paper, in three tones of the same green, with each face catching different light.",
+      "svg": "<path d=\"M14 16H50L40 25H14Z\" fill=\"{accent}\"></path><path d=\"M50 16L40 25L14 48L24 39Z\" fill=\"{soft}\"></path><path d=\"M24 39H50V48H14Z\" fill=\"{deep}\"></path>"
+    },
+    {
+      "name": "Constellation",
+      "tag": "Z · dots",
+      "blurb": "Seven points: two dark rows joined by a light diagonal of three. It reads as a pattern first, and as a Z on a second look.",
+      "svg": "<circle cx=\"17\" cy=\"17\" r=\"4.6\" fill=\"{accent}\"></circle><circle cx=\"32\" cy=\"17\" r=\"4.6\" fill=\"{accent}\"></circle><circle cx=\"32\" cy=\"47\" r=\"4.6\" fill=\"{accent}\"></circle><circle cx=\"47\" cy=\"47\" r=\"4.6\" fill=\"{accent}\"></circle><circle cx=\"47\" cy=\"17\" r=\"4.6\" fill=\"{soft}\"></circle><circle cx=\"32\" cy=\"32\" r=\"4.6\" fill=\"{soft}\"></circle><circle cx=\"17\" cy=\"47\" r=\"4.6\" fill=\"{soft}\"></circle>"
+    },
+    {
+      "name": "River stone",
+      "tag": "Z · organic",
+      "blurb": "A soft Z worn into a smooth pebble. It’s the most organic and tactile of the ten.",
+      "svg": "<path d=\"M32 8C48 8 57 18 56.5 32C56 47 45 56 31 56C16 56 7.5 46 7.5 32C7.5 17 17 8 32 8Z\" fill=\"{accent}\"></path><path d=\"M21 23H40C44.5 23 45.5 27.5 41.5 29.5L23 36.5C18.5 38.5 19.5 42 24 42H43\" fill=\"none\" stroke=\"{paper}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>"
+    },
+    {
+      "name": "Window",
+      "tag": "Shape only",
+      "blurb": "An arched window with a low moon. It feels like somewhere calm to come back to, and it has no letterform at all.",
+      "svg": "<path d=\"M19 50V31A13 13 0 0 1 45 31V50Z\" fill=\"{accent}\"></path><circle cx=\"32\" cy=\"31\" r=\"5.5\" fill=\"{paper}\"></circle><rect x=\"12\" y=\"50\" width=\"40\" height=\"3.5\" rx=\"1.75\" fill=\"{soft}\"></rect>"
+    },
+    {
+      "name": "Tide",
+      "tag": "Shape + Z",
+      "blurb": "A circle split by a Z-shaped shoreline into water and sky. It’s calm, and the Z only shows up on a second look.",
+      "svg": "<defs><clipPath id=\"tide{uid}\"><circle cx=\"32\" cy=\"32\" r=\"25\"></circle></clipPath></defs><g clip-path=\"url(#tide{uid})\"><rect width=\"64\" height=\"64\" fill=\"{soft}\"></rect><path d=\"M0 0H64V41H25L39 23H0Z\" fill=\"{accent}\"></path></g>"
+    },
+    {
+      "name": "Two rooms",
+      "tag": "Shape only",
+      "blurb": "Two soft squares that overlap at one corner: separate products under one roof.",
+      "svg": "<defs><clipPath id=\"room{uid}\"><rect x=\"11\" y=\"11\" width=\"29\" height=\"29\" rx=\"7\"></rect></clipPath></defs><rect x=\"11\" y=\"11\" width=\"29\" height=\"29\" rx=\"7\" fill=\"{soft}\"></rect><rect x=\"24\" y=\"24\" width=\"29\" height=\"29\" rx=\"7\" fill=\"{accent}\"></rect><rect x=\"24\" y=\"24\" width=\"29\" height=\"29\" rx=\"7\" fill=\"{deep}\" clip-path=\"url(#room{uid})\"></rect>"
+    },
+    {
+      "name": "Stencil",
+      "tag": "Z · monoline",
+      "blurb": "A Z made of three separate strokes with small gaps, like a hand-cut stencil. Light and precise.",
+      "svg": "<path d=\"M18 19H44M41 26L23 38M20 45H46\" fill=\"none\" stroke=\"{accent}\" stroke-width=\"5\" stroke-linecap=\"round\"></path>"
+    },
+    {
+      "name": "Interlock",
+      "tag": "Z · symmetric",
+      "blurb": "Two matching corners turned to face each other, so they fit together and outline a Z between them.",
+      "svg": "<path d=\"M14 17H45V31\" fill=\"none\" stroke=\"{accent}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><path d=\"M19 33V47H50\" fill=\"none\" stroke=\"{soft}\" stroke-width=\"7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>"
+    },
+    {
+      "name": "Journey",
+      "tag": "Z · line + dot",
+      "blurb": "A single line drawn as a Z that stops at a resting point. It suggests a path with somewhere to arrive.",
+      "svg": "<path d=\"M18 20H45L19 44H38\" fill=\"none\" stroke=\"{accent}\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path><circle cx=\"48\" cy=\"44\" r=\"4.5\" fill=\"{soft}\"></circle>"
+    }
+  ]
+}
